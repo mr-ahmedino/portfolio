@@ -1,0 +1,93 @@
+body{
+    background-color: aliceblue;
+}
+.top-buttons{
+float: right;
+padding: 1rem;
+margin-top: 1rem;
+}
+.home-logo{
+    margin-top: 1rem;
+}
+.top-links a{
+padding: 3rem;
+color: black;
+text-decoration: none;
+float:inline-end;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.welcome{
+    position: relative;
+}
+.welcome img{
+    width: fit-content;
+}
+.welcome-heading{
+    position: absolute;
+    top: 2%;
+    color: rgb(45, 48, 48);
+    text-align: center;
+    width: 100%;
+}
+.welcome-name{
+    position: absolute;
+    top: 17%;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+.mission{
+    position: absolute;
+    top: 77%;
+    font-size: 180%;
+    background-color: rgba(70, 69, 69, 0.767);
+    color: rgb(172, 16, 16);
+    text-align: center;
+    width: 100%; 
+}
+.new-list{
+    margin-top: 3rem;
+    margin-left: 45%;
+    margin-bottom: 2rem;
+}
+.list-image{
+    position: relative;
+}
+.new-list-heading{
+    position: absolute;
+    color: red;
+    top: 77%;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+.list-image-note1{
+    position: absolute;
+    top: 86%;
+    color: red;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+.list-image-note2{
+    position: absolute;
+    top: 93%;
+    color: red;
+    background-color: rgba(128, 128, 128, 0.801);
+}
+.viewall{
+    text-align: center;
+    margin-top: 2rem;
+}
+.community{
+    text-align: center;
+    margin-top: 2rem;
+}
+.community-mission{
+    margin-top: 2rem;
+    margin-left: 12rem;
+    background-color: aliceblue;
+    text-align: center;
+    width: 70%;
+    color: rgba(0, 0, 0, 0.589);
+}
